@@ -32,6 +32,7 @@ html {
         flex: 1;
         color: $text-color;
         .card {
+          text-transform: uppercase;
           display: flex;
           justify-content: space-around;
           align-items: center;
@@ -144,6 +145,10 @@ html {
       order: 3;
     }
     .countries-container {
+      #tableTitle {
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
       order: 4;
       th:first-child {
         position: -webkit-sticky;

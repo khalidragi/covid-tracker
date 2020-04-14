@@ -67,7 +67,7 @@ const LineChartDet = () => {
             {
               radius: 2,
               data: dailyData.map((data) => data.deaths),
-              label: 'Deaths',
+              label: 'Global Deaths',
               borderColor: '#f72525',
               fill: true,
             },

@@ -67,7 +67,7 @@ const LineChartInf = () => {
             {
               radius: 2,
               data: dailyData.map((data) => data.confirmed),
-              label: 'Infected',
+              label: 'Global Infected',
               borderColor: '#bead49',
               fill: true,
             },
