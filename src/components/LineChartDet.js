@@ -12,9 +12,7 @@ const LineChartDet = () => {
   return (
     <div className="line-chart">
       <Line
-        height={180}
         options={{
-          maintainAspectRatio: false,
           showLine: false,
           layout: {
             padding: {

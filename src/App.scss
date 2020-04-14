@@ -123,3 +123,43 @@ html {
     }
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    .numbers-container {
+      order: 2;
+      .card-container {
+        flex-direction: column;
+        justify-content: center;
+        .vertical {
+          width: 100%;
+        }
+      }
+    }
+    .charts-container {
+      order: 3;
+    }
+    .countries-container {
+      order: 4;
+      th:first-child {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        background-color: $primary-color;
+      }
+    }
+    .logo-container {
+      order: 1;
+      margin-bottom: 0;
+      .logo {
+        margin-bottom: 0;
+        padding: 10px;
+      }
+    }
+  }
+}
